@@ -49,6 +49,7 @@ func setup() {
     scene.add(funnel)
     
     funnel.onTapped = dropBall
+    print("Hello")
 }
 
 func dropBall() {
